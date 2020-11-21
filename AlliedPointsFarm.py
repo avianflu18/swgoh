@@ -1,11 +1,13 @@
 # -*- encoding=utf8 -*-
 __author__ = "DarthYu"
-
+import sys
 from airtest.core.api import *
 
 def main():
     while 1:
-        if exists(Template(r"tpl1605937955537.png", record_pos=(0.17, 0.243), resolution=(1280, 720))):
+        if exists(Template(r"tpl1605992707698.png", record_pos=(0.0, -0.003), resolution=(1280, 720))):
+            sys.exit()
+        elif exists(Template(r"tpl1605937955537.png", record_pos=(0.17, 0.243), resolution=(1280, 720))):
             wait(Template(r"tpl1605937955537.png", record_pos=(0.17, 0.243), resolution=(1280, 720)),intervalfunc=main)
             touch(Template(r"tpl1605937955537.png", record_pos=(0.17, 0.243), resolution=(1280, 720)))
             wait(Template(r"tpl1605938079807.png", record_pos=(0.382, 0.242), resolution=(1280, 720)),intervalfunc=main)
@@ -37,6 +39,10 @@ def main():
             elif exists(Template(r"tpl1605944094403.png", record_pos=(-0.466, -0.247), resolution=(1280, 720))):
                 wait(Template(r"tpl1605944094403.png", record_pos=(-0.466, -0.247), resolution=(1280, 720)),intervalfunc=main)
                 touch(Template(r"tpl1605944094403.png", record_pos=(-0.466, -0.247), resolution=(1280, 720)))
+            elif exists(Template(r"tpl1605992707698.png", record_pos=(0.0, -0.003), resolution=(1280, 720))):
+                sys.exit(0)
+            else:
+                main()
              
 main()
 
