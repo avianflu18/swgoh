@@ -11,4 +11,4 @@ https://www.bluestacks.com/
 
 -Enable Android Debug Bridge
 
-Not tested on iOS, but AirTestIDE and script should be able to connect to iOS device and script
+Not verified on iOS. It may work on iOS with a bit of work.  Script is simple image recognition and AirTestIDE is capable of interfacing with iOS devices. https://airtest.doc.io.netease.com/en/IDEdocs/device_connection/4_ios_connection/
