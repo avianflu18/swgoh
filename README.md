@@ -10,4 +10,5 @@ Verified and Tested for Android via Bluestacks
 https://www.bluestacks.com/
 
 Android: https://airtest.doc.io.netease.com/en/IDEdocs/device_connection/1_android_phone_connection/
+
 iOS: https://airtest.doc.io.netease.com/en/IDEdocs/device_connection/4_ios_connection/  *Not verified on iOS*
